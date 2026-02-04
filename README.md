@@ -9,7 +9,7 @@ I am currently building my skills step by step and uploading everything I learn.
 
 ## Current Focus
 - Programming Basics
-- Web Development (HTML, CSS)
+- Web Development (HTML, CSS, JavaScript)
 - GitHub Practice
 
 ## Goal
