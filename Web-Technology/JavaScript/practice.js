@@ -75,3 +75,49 @@ switch(exp){
     break
   default: console.log("invalid")
 }
+// for loop
+let product=1
+for(let i=1; i<=10; i++){
+  product=product*i
+}
+console.log(product)
+// for in loop
+let obj={
+  parth:90,
+  shubh:85,
+shivam:69,
+kris:99,
+}
+for(let a in obj){
+  console.log(a)
+}
+for(let a in obj){
+  console.log(obj[a])
+}
+while loop
+let n=10
+let i=0
+while(i<=n){
+  console.log(i)
+i++
+}
+
+// do while loop
+let n=2
+let i=0
+do{
+  console.log(i)
+  i++
+} while(i<=n)
+
+// Functions
+function avg(a,b){
+  return (a+b)/2
+}
+console.log(avg(4,6))
+
+// arrow function
+const sum=(a,b)=>{
+  return a+b
+}
+console.log("The sum of a and b is",sum(4,6))
