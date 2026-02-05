@@ -121,3 +121,16 @@ const sum=(a,b)=>{
   return a+b
 }
 console.log("The sum of a and b is",sum(4,6))
+
+
+// Strings
+let a="Parth"
+console.log(a.length)
+// Template literals
+let boy1="Parth"
+let boy2="Krishna"
+let sentence=`${boy1} is a brother of ${boy2}`
+console.log(sentence)
+// Ecape sequence characters
+let fruit="Ban\'ana"
+console.log(fruit)
