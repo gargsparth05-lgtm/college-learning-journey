@@ -134,3 +134,25 @@ console.log(sentence)
 // Ecape sequence characters
 let fruit="Ban\'ana"
 console.log(fruit)
+
+let a="Parth"
+console.log(a.length)
+// Template literals
+let boy1="Parth"
+let boy2="Krishna"
+let sentence=`${boy1} is a brother of ${boy2}`
+console.log(sentence)
+// Ecape sequence characters
+let fruit="Ban\'ana"
+console.log(fruit)
+// Uppper case and Lower case
+let name="Parth"
+console.log(name.toUpperCase()) 
+console.log(name.toLowerCase())
+console.log(name.slice(2,4))
+console.log(name.slice(2))
+console.log(name.replace("Par","Lar"))
+let friend="Naman"
+console.log(name.concat(" is a friend of ",friend, " ok"))
+let friend2="      Meena      "
+console.log(friend2.trim())
