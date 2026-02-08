@@ -149,6 +149,7 @@ console.log(fruit)
 let name="Parth"
 console.log(name.toUpperCase()) 
 console.log(name.toLowerCase())
+
 console.log(name.slice(2,4))
 console.log(name.slice(2))
 console.log(name.replace("Par","Lar"))
@@ -156,3 +157,33 @@ let friend="Naman"
 console.log(name.concat(" is a friend of ",friend, " ok"))
 let friend2="      Meena      "
 console.log(friend2.trim())
+let fri="GARG"
+// includes, startsWith, endsWith functions
+const sentence1= "The quick brown fox jumps over the lazy dog."
+const word="fox"
+console.log(sentence1.includes(word))
+console.log(sentence1.startsWith("The"))
+console.log(sentence1.endsWith("dog"))
+// split function
+const str="The quick brown fox jumps over the lazy dog."
+const words=str.split(' ')
+console.log(words)
+
+// Arrays in js and they are mutable
+let arr=[1,2,3,4,5,"Parth",true]
+console.log(arr)
+console.log(arr[0])
+arr[7]="good"
+console.log(arr)
+console.log(arr.length)
+console.log(typeof arr)
+// Methods of array
+console.log(arr.toString()+"\n")
+console.log(arr.join(" ")+"\n")
+console.log(arr.join(" and "))
+console.log(arr.pop())
+console.log(arr.push("GARG"))
+  console.log(arr)
+console.log(arr.shift())
+console.log(arr.unshift("Sajal"))
+console.log(arr)
