@@ -187,3 +187,21 @@ console.log(arr.push("GARG"))
 console.log(arr.shift())
 console.log(arr.unshift("Sajal"))
 console.log(arr)
+
+let num=[2,34,5,67,7]
+let num_more=[1,2,3,4,5]
+let num_even_more=[11,12,13,14,15]
+console.log(num.concat(num_more,num_even_more))
+let fly=[2,34,5,6,2,24,5]
+let compare=(a,b)=>{
+  return a-b
+}
+console.log(fly.sort())
+console.log(fly.sort(compare))
+console.log(fly.reverse())
+
+//Splice and Slice
+let num2=[1,2,3,4,5,6,7,8,9]
+console.log(num2.splice(2,3,22,23,24))
+
+console.log(num2.slice(2))
