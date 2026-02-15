@@ -205,3 +205,25 @@ let num2=[1,2,3,4,5,6,7,8,9]
 console.log(num2.splice(2,3,22,23,24))
 
 console.log(num2.slice(2))
+
+let num= [1,2,3,4]
+// for loop
+for(let i=0;i<num.length;i++){
+  console.log(num[i])
+}
+// for each loop
+num.forEach((element)=>{
+  console.log(element*element)
+})
+// Array.from
+let name="Parth"
+let arr=Array.from(name)
+console.log(arr)
+// for of
+for(let i of num){
+  console.log(i)
+} 
+// for in
+for(let i in num){
+  console.log(num[i])
+}
