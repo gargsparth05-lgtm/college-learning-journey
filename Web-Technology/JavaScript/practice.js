@@ -227,3 +227,23 @@ for(let i of num){
 for(let i in num){
   console.log(num[i])
 }
+// map
+let arr2=num.map((value,index,array)=>{
+  console.log(value,index,array)
+  return value+index
+})  
+console.log(arr2)
+
+// filter
+let arr1=[1,4,5,67]
+let a=arr1.filter((value)=>{
+  return value<10
+})
+console.log(a)
+// reduce method
+let arr3=[1,2,3,4,5,6]
+let newarr=arr3.reduce((h1,h2)=>{
+  return h1+h2
+})  
+console.log(newarr)
+
